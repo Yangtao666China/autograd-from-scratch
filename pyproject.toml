@@ -16,8 +16,8 @@ dependencies = ["numpy>=1.26,<3"]
 demo = ["matplotlib>=3.8,<4"]
 
 [project.urls]
-Repository = "https://github.com/Yangtao666China/tiny-autograd-lab"
-Issues = "https://github.com/Yangtao666China/tiny-autograd-lab/issues"
+Repository = "https://github.com/Yangtao666China/autograd-from-scratch"
+Issues = "https://github.com/Yangtao666China/autograd-from-scratch/issues"
 
 [tool.setuptools.packages.find]
 include = ["tiny_autograd*"]

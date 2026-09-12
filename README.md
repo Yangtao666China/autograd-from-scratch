@@ -1,13 +1,13 @@
 <p align="center"><img src="docs/banner.svg" alt="Tiny Autograd Lab — gradients, made visible" width="100%"></p>
 
 <p align="center">
-  <a href="https://github.com/Yangtao666China/tiny-autograd-lab/actions/workflows/tests.yml"><img src="https://github.com/Yangtao666China/tiny-autograd-lab/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
+  <a href="https://github.com/Yangtao666China/autograd-from-scratch/actions/workflows/tests.yml"><img src="https://github.com/Yangtao666China/autograd-from-scratch/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
   <img src="https://img.shields.io/badge/Python-3.10%2B-2563eb" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/NumPy-autodiff-0f766e" alt="NumPy autodiff">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-slategray" alt="MIT license"></a>
 </p>
 
-<h3 align="center">从链式法则，到一个真正学会分类的小网络。</h3>
+<h1 align="center">从零实现自动求导与反向传播</h1>
 <p align="center">A small, readable reverse-mode autodiff engine built on NumPy.</p>
 
 实现一个支持广播、矩阵乘法和反向传播的 Tensor，再用它训练双月形数据分类器。没有调用 PyTorch 的自动求导，也不用下载数据集。适合把“反向传播公式”与“训练代码”连接起来。
@@ -93,7 +93,7 @@ print(w.grad, b.grad)
 1. 把隐藏层从 24 改成 4：观察决策边界和验证损失。
 2. 把学习率从 0.12 改为 0.01 或 1.0：区分学得慢和训练不稳定。
 3. 用多个种子重复训练，报告均值与波动。
-4. 将 `artifacts/history.csv` 交给 [TrainLens](https://github.com/Yangtao666China/trainlens) 与其他实验比较。
+4. 将 `artifacts/history.csv` 交给 [TrainLens](https://github.com/Yangtao666China/training-log-visualizer) 与其他实验比较。
 
 ## 参考与开发说明
 
