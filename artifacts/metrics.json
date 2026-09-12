@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "epochs": 500,
+  "selected_epoch": 500,
+  "selection_metric": "validation BCE",
+  "test_loss": 0.14834976735343686,
+  "test_accuracy": 0.9375,
+  "train_samples": 256,
+  "validation_samples": 128,
+  "test_samples": 256,
+  "parameters": 697
+}

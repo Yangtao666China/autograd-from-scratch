@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiny-autograd-lab"
+version = "0.1.0"
+description = "NumPy reverse-mode autodiff with gradient checks and a reproducible classifier."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Yangtao666China"}]
+dependencies = ["numpy>=1.26,<3"]
+
+[project.optional-dependencies]
+demo = ["matplotlib>=3.8,<4"]
+
+[project.urls]
+Repository = "https://github.com/Yangtao666China/tiny-autograd-lab"
+Issues = "https://github.com/Yangtao666China/tiny-autograd-lab/issues"
+
+[tool.setuptools.packages.find]
+include = ["tiny_autograd*"]
